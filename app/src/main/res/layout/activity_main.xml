@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/idRerB"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="139dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/idRerD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRerA"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/rerb" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="405dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/idRerB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="388dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="3dp"
+        android:background="#AA44"
+        android:text="Application Enquète de satisfaction 2025"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerD" />
+
+    <ImageButton
+        android:id="@+id/idRerA"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="149dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/idRerC"
+        app:layout_constraintEnd_toStartOf="@+id/idRerB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/rera" />
+
+    <ImageButton
+        android:id="@+id/idRerC"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="101dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/idRerD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRerA"
+        app:srcCompat="@drawable/rerc" />
+
+    <ImageButton
+        android:id="@+id/idRerD"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="101dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRerC"
+        app:layout_constraintTop_toBottomOf="@+id/idRerB"
+        app:srcCompat="@drawable/rerd" />
+
+    <ImageButton
+        android:id="@+id/idRerE"
+        android:layout_width="92dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="216dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/rere" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
